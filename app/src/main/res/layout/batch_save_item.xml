@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:id="@+id/save_item"
+    android:background="@drawable/box"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="0.6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/serial_number"
+            android:layout_width="match_parent"
+            android:text="流水号 # 0127"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:textColor="@color/colords"
+
+            />
+        <TextView
+            android:id="@+id/ood"
+            android:text="订单号：34431313124"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+
+            />
+        <TextView
+            android:id="@+id/cuisine"
+            android:text="菜品：套餐A"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            />
+        <TextView
+            android:id="@+id/phone"
+            android:text="手机尾号：2688"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+
+            />
+        <TextView
+            android:id="@+id/stall"
+            android:text="档口：餐餐乐"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+
+            />
+        <TextView
+            android:id="@+id/time"
+            android:text="时间：2020-3-2 午餐"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_weight="0.4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:visibility="gone"
+            android:text="单元格：4"
+            android:id="@+id/cell"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:textColor="@color/colords"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

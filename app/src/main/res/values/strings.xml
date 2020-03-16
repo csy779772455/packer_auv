@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">朴食智能取餐柜</string>
+    <string name="Save_meal">存餐</string>
+    <string name="Batch_Save_Meal">批量存餐</string>
+    <string name="Take_meal">取餐</string>
+    <string name="admin">管理员</string>
+    <string name="play_save_meal">请存餐</string>
+    <string name="back">返回</string>
+    <string name="vending">自动售卖</string>
+    <string name="to_save">待存订单</string>
+    <string name="existing">已存订单</string>
+
+</resources>
